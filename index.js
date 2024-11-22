@@ -33,7 +33,7 @@ app.get('/DAA', async (req, res) => {
 
     // Prepare data to append (name "DAA" and current timestamp)
     const values = [
-      ['DAA LAB', dayjs().format()]
+      ['DAA LAB', dayjs().format() , 'Pranav']
     ];
 
     // Append the data to the Google Sheet
@@ -62,7 +62,7 @@ app.get('/MATH', async (req, res) => {
 
     // Prepare data to append (name "DAA" and current timestamp)
     const values = [
-      ['MATH LAB', dayjs().format()]
+      ['MATH LAB', dayjs().format() , 'pranav']
     ];
 
     // Append the data to the Google Sheet
@@ -91,7 +91,7 @@ app.get('/ML', async (req, res) => {
 
     // Prepare data to append (name "DAA" and current timestamp)
     const values = [
-      ['ML LAB', dayjs().format()]
+      ['ML LAB', dayjs().format() , 'pranav']
     ];
 
     // Append the data to the Google Sheet
